@@ -42,4 +42,7 @@ void merge_subarr(int *subarr, int *buf, size_t front, size_t mid,
 void swap_ints(int *a, int *b);
 void max_heapify(int *array, size_t size, size_t base, size_t root);
 void heap_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
+int getMax(int *arr, size_t size);
+void countSort(int *arr, ssize_t n, int exp);
 #endif
