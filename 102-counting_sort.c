@@ -29,6 +29,8 @@ void counting_sort(int *array, size_t size)
 	int *aux = malloc((k + 1) * sizeof(int));
 	int *array_sort = malloc(size * sizeof(int));
 
+	if (!array || size < 2)
+		return;
 	if (!aux || !array_sort)
 	{
 		free(aux);
