@@ -33,4 +33,6 @@ void quick_sort_lim(int *array, int start, int end, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2);
+int _bigN(int *array, size_t size);
+void counting_sort(int *array, size_t size);
 #endif
